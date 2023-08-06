@@ -21,7 +21,7 @@ public:
                 else if (sum > 0)k--;
                 else {
                     res.push_back({nums[i], nums[j], nums[k]});
-                    
+                    //when there is duplicated value
                     while (j < k && nums[j] == nums[j + 1]) {
                         j++;
                     }
